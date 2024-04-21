@@ -25,7 +25,7 @@ int hasValidNeighbors(const int neighborIndex[])
 /**
  * Populates neighbor array and chooses a random neighbor from the neighbor index array and return the chosen
  * neighbor's index. It assumes that each element in array neighbors is initialized to INVALID_NEIGHBOR_INDEX.
- * A neighbor of the current cell(C) is defined as the cell(X) that is one cell away form the current cell, as
+ * A neighbor of the current cell(C) is defined as the cell(X) that is two cells away form the current cell, as
  * shown below:
  *        X
  *        #
