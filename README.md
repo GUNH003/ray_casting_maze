@@ -1,5 +1,9 @@
 # ray_casting_maze
 A first-person maze traversal application.
+
+<img alt="img1.png" height="360" src="img1.png" width="480"></img>
+<img alt="img2.png" height="360" src="img2.png" width="480" ></img>
+
 ## Features:
 - Random maze generation
 - Collision detection
