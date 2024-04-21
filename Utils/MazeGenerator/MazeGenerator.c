@@ -2,9 +2,11 @@
 #include "MazeGenerator.h"
 #include "../ErrorHandler/ErrorHandler.h"
 
+// -------------------------------------- STATIC GLOBAL VARIABLES --------------------------------------
 static const int TOTAL_NUM_NEIGHBORS = 4;        // total number of neighbors
 static const int INVALID_NEIGHBOR_INDEX = -1;    // invalid neighbor index
 
+// -------------------------------------- FUNCTIONS --------------------------------------
 /**
  * Checks if the current cell has valid neighbors.
  *

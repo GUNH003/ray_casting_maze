@@ -2,6 +2,7 @@
 #include "../Utils/Collision/Collision.h"
 #include "../Utils/ErrorHandler/ErrorHandler.h"
 
+// -------------------------------------- GLOBALS -----------------------------------------
 const float P_ABS_TURNING_ANGLE = 0.05f;    // absolute unit turning angle in radians
 const float P_STEP_SCALAR = 2.0f;           // scale coefficient for change in player's position
 const float P_RECT_SIZE = 0.5f;             // the size of the square bounding box for the player
@@ -17,6 +18,7 @@ Vec3* P_DIR = NULL;                         // player direction vector, this is 
 Vec3* P_RAYS = NULL;                        // array of vectors representing the intersections points between rays cast
 											// by player and walls, within the field of view
 
+// -------------------------------------- FUNCTIONS -----------------------------------------
 /**
  * Turns the player based on key pressed. Turning clockwise when right arrow key flag is on, turning counter clockwise
  * when left arrow key flag is on.  In-place modification is made to the player position vector.
